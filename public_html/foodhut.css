@@ -11116,6 +11116,10 @@ pre {
   font-weight: 700;
 }
 
+#background-form {
+  background-color: #5a6268 rgba(0, 0, 0, 0.75);
+}
+
 .navbar .nav-link.active {
   color: #ff214f;
 }
