@@ -16,7 +16,53 @@
         <link rel="stylesheet" href="../assets/css/foodhut.css">
     </head>
 <body>
+      <!--Catering Nav Bar-->
+      <nav class="custom-navbar navbar navbar-expand-lg navbar-dark fixed-top" data-spy="affix" data-offset-top="10">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="/tombachirestaurants/public_html/index.html">Home</a>
+                </li>
+                <!--
+                <li class="nav-item">
+                    <a class="nav-link" href="#about">About</a>
+                </li>
+            -->
+           
+                <li class="nav-item">
+                    <a class="nav-link" href="./catering.html">Catering</a>
+                </li>
+               
+            </ul>
+            <a class="navbar-brand m-auto" href="#">
+                <img src="assets/imgs/Tombachi Restaurants_Logo-MAIN_Full Color.png" class="brand-img" alt="">
+                <span class="brand-txt"><p>"It's Hibachi, But Better"</p></span>
+            </a>
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="https://www.instagram.com/tombachirestaurants/">Instagram</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./contact.html">Contact Us</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
       <!--Catering Section-->
+      <form action=”mailto:Catering@tombachirestaurants.com”
+
+
+method=”POST”
+
+
+enctype=”text/plain”
+
+
+
+name=”EmailForm”>
 
       <div class="container-fluid has-bg-overlay text-center text-light has-height-lg middle-items" id="book-table">
         <div class="catering-page">
@@ -44,12 +90,25 @@
                     <input type="text" id="booktable" class="form-control form-control-lg custom-form-control" placeholder="COMMENTS">
                 </div>
             </div>
-            <a href="#" class="btn btn-lg btn-primary" id="rounded-btn">Send Request</a>
+            <a href="../index.html" class="btn btn-lg btn-primary" id="rounded-btn">Send Request
+
+                <script>
+                    var btnEl = document.getElementsByClassName('.contact-btn2');
+                    addEventListener('click', btnEl)
+                    function eventHandler(event) {
+      if (click === window.alert("Thanks!")) {
+        /* handle a full screen toggle */
+      } else /* fullscreenerror */ { console.log("error")
+        /* handle a full screen toggle error */
+      }
+    }
+                </script>
+            </a>
             <br>
             <a style="margin-top: 10px;" href="/tombachirestaurants/public_html/index.html" class="btn btn-lg btn-primary" id="rounded-btn">Return Home</a>
         </div>
     </div>
-
+    </form>
 
 
 </body>
