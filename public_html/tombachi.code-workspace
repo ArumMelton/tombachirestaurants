@@ -1,0 +1,15 @@
+{
+  "folders": [
+	{
+		"name": "tombachi",
+		"path": "../../../../Downloads/tombachi"
+	},
+	{
+		"name": "tombachi",
+		"path": "../../../../Repos/Tombachi/tombachi"
+	}
+],
+  "settings": {
+    "liveServer.settings.multiRootWorkspaceName": "tombachi"
+  }
+}
